@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOCTOPIA - The Home of Crypto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black" style="color: rgb(255,255,255);">
+
+    <head>
+
+        <nav class="p-3  d-flex justify-content-between   align-items-center ">
+            <div class="navbar-brand ">
+                <img src="./images/logo.png" alt="">
+            </div>
+
+            <div class="d-flex  gap-4 align-items-center  ">
+
+                <div class="navbar">
+                    <ul class="custom-nav-list d-flex gap-5 list-unstyled " sytle="list-unstyled   ">
+                        <li>Install</li>
+                        <li>Roadmap</li>
+                        <li>Earn</li>
+                        <li>Play</li>
+                        <li>$BLOK</li>
+                        <li>DAO</li>
+                        <li>NFT's</li>
+                        <li>FAQs</li>
+                        <li>Socials</li>
+                    </ul>
+                </div>
+
+                <button class="btn custom-navbar-btn navbar-btn px-5 py-2 " style="font-weight: 500;
+                color: white; border-radius: 15px;  background-color: rgb(236,0,191)">Collect Wallet</button>
+
+            </div>
+        </nav>
+
+
+    </head>
+    <div class="parent">
+
+        <section class="section1">
+
+            <div class="carousel d-flex align-items-center ">
+
+                <div id="carouselExampleAutoplaying" class="custom-carousel carousel  slide w-50 "
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/carousel image2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/carousel image2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-details w-50 pe-5 ">
+
+                    <h1 style="font-weight: bold;  font-size: 70px;">ROADMAP</h1>
+                    <h1 style="font-weight: bold; font-size: 70px; line-height: 20%; color: rgb(236, 0, 191);">2024</h1>
+                    <br><br>
+                    <p style="font-size: 20px">Explore released features, upcoming products, testing progress, and share
+                        your thoughts on future
+                        developments!</p><br>
+                    <button class="custom-btn1 btn px-5 py-2 " style="border 2px solid rgb(236, 0, 191)">Find out
+                        more</button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+
+            <div class="d-flex align-items-center px-3">
+
+                <div class="image1">
+                    <img src="./images/section2 image1.png" alt="">
+                </div>
+                <div>
+                    <h3 style="text-align:center; font-weight: bold;  font-size: 35px">WHAT IS BLOKTOPIA</h3>
+                    <div></div>
+                    <P style="text-align: center; font-size: 20px">Bloktopia is the one-stop shop for everything
+                        Cryptocurrency and
+                        NFTs. Learn the basics or study
+                        advanced topics, earn money, play games, make connections, and much more in an immersive virtual
+                        environment!</P>
+                </div>
+                <div>
+
+                    <img src="./images/section2 image2.png" alt="">
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section3">
+
+            <div>
+
+
+                <video src="./images/video.mp4" width="100%" controls autoplay loop type="video/mp4">
+
+                    <source src="./images/video.mp4" width="100%" controls autoplay loop type="video/mp4">
+
+
+                </video>
+            </div>
+        </section>
+
+        <section class="section4">
+
+            <div>
+
+                <div class="d-flex flex-row flex-wrap justify-content-center gap-2   ">
+
+
+
+                    <div class="custom-image background-image1 border rounded"
+                        style="width: 552px; height: 346px; margin: 20px;">
+                        <div
+                            class="d-flex flex-column justify-content-center align-items-center gap-2  position-relative ">
+                            <br>
+                            <h1>Earn Now</h1>
+                            <p>Join a Jobee or Stake your $BLOK to generate a passive income</p><br><br><br><br>
+                            <button class="custom-btn2 btn px-5 py-2 ">Earn Now</button>
+                        </div>
+                    </div>
+
+                    <div class="custom-image background-image2 border rounded"
+                        style="width: 552px; height: 346px; margin: 20px;">
+                        <div
+                            class="d-flex flex-column justify-content-center align-items-center gap-2  position-relative ">
+                            <br>
+                            <h1>Play</h1>
+                            <p>Create your own unique identity and enter the Home of Crypto</p><br><br><br><br>
+                            <button class="custom-btn2 btn px-5 py-2 ">Play Now</button>
+                        </div>
+                    </div>
+
+                    <div class="custom-image background-image3 border rounded"
+                        style="width: 552px; height: 346px; margin:20px;">
+                        <div
+                            class="d-flex flex-column justify-content-center align-items-center gap-2  position-relative ">
+                            <br>
+                            <h1>DAO</h1>
+                            <p>Become a governor and have your say through Bloktopia's voting system</p><br><br><br><br>
+                            <button class="custom-btn2 btn px-5 py-2 ">Vote Now</button>
+                        </div>
+                    </div>
+
+                    <div class="custom-image background-image4 border rounded"
+                        style="width: 552px; height: 346px; margin: 20px;">
+                        <div
+                            class="d-flex flex-column justify-content-center align-items-center gap-2  position-relative ">
+                            <br>
+                            <h1>NFT's</h1>
+                            <p>Own revenue generating REBLOK and ADBLOK NFT's</p><br><br><br><br>
+                            <button class="custom-btn2 btn px-5 py-2 ">Purchase Now</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <footer style="background-color: rgb(23,23,23);">
+
+
+        <div class="social-links d-flex justify-content-center gap-5 pt-5  ">
+
+            <a href="https://www.twitter.com/"> <img src="./images/social icons/twitter.png" alt=""></a>
+            <a href="https://www.instagram.com"><img src="./images/social icons/instagram (1).png" alt=""></a>
+            <a href="https://www.telegram.com"><img src="./images/social icons/telegram.png" alt=""></a>
+            <a href="https://www.youtube.com"><img src="./images/social icons/youtube.png" alt=""></a>
+        </div><br><br>
+
+        <div
+            class="justify-center mt-10 flex flex-col items-center border-t-2 border-gray bg-background-secondary custom-padding1">
+            <p class="text-center text-sm"><span class="text-base">©</span> Bloktopia all Rights Reserved 2024</p>
+            <div class="d-flex gap-3 justify-content-center text-center text-sm font-semibold md:flex-col"
+                style="color:rgb(236, 0, 191);"><a class="text-primary-color" href="/m3tapass-privacy-policy">Privacy
+                    Policy</a><a class="text-primary-color" href="/m3tapass-terms-conditions">Terms And Conditions</a><a
+                    class="text-flex justify-content-center   primary-color" href="/m3tapass-data-deletion">Data
+                    Deletion</a></div>
+
+            <p class="text-center text-[11px]" style="padding: 50px 200px;">Disclaimer. No Investment Advice. The
+                information
+                provided on
+                this website does
+                not constitute investment
+                advice, financial advice, trading advice, or any other sort of advice and you should not treat any of
+                the website's content as such. Bloktopia does not recommend that any cryptocurrency should be bought,
+                sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making
+                any investment decisions.</p>
+
+
+
+            <p></p>
+            <div class="flex gap-1 text-center " style="padding: 0px 400px;"><small
+                    class="text-center text-[11px] text-center">You
+                    can view any revisions or modifications to the SAFT Agreement by <a
+                        download="Bloktopia SAFT 10th July 2023" href="/bloktopia-SAFT.pdf" target="_blank"
+                        class="cursor-pointer text-xs text-white">downloading
+                        the latest version here.</a></small><small class="text-center text-[11px]">The SAFT Agreement is
+                    password protected, please request the password via email to <a
+                        class="my-2 cursor-pointer text-xs text-white"
+                        href="mailto:hello@bloktopia.com">hello@bloktopia.com</a></small><br><br>
+                <small class="mt-5 text-center mb-5 ">This site is owned an operated by Lumocolor Limited BVI</small>
+            </div>
+        </div><br>
+
+
+
+
+
+
+    </footer>
+
+</body>
+
+
+
+
+
+<script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+</html>
